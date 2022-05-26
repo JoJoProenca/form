@@ -1,7 +1,8 @@
 
 body
 {
-    
+    color: beige;
+    background-color: black;
     font-family: serif;
     margin-left: 36%;
     margin-top: -3%;
@@ -26,7 +27,7 @@ img
 }
 fieldset.img
 {
-    
+    background-color: black;
     position: relative;
     border: 2px solid white;
     border-radius: 10px;
@@ -37,7 +38,7 @@ fieldset.img
 /* Formulario*/
 .form
 {
-    color: black;
+    color: white;
     font-size: 30px;
 
 }
@@ -45,7 +46,7 @@ fieldset.img
 {
     position: relative;
     font-size: 30px;
-    color: black;
+    color:white;
 
 }
 button
