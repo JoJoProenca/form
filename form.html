@@ -8,26 +8,26 @@
     </head>
 
     <body>
-        <fieldset class="titulo">
-            <h1><b>Acesse sua conta</b></h1>
-            <h2><em>Complete suas informações abaixo:</em></h2>
-       
-        <form>
-            <table class="form">
+        <figure class="Legend">
+            <img src="img/Ebanx.png">
+                <figcaption  class="legend">
+                    <h3>EBANX.</h3>
+                    <p><a href="https://business.ebanx.com/pt-br/">Sonhe grande.</a></p>
+                </figcaption>
+            </figure>
+            
+        </figure>
+                         <h1><b>Acesse sua conta.</b></h1>
+<fieldset class="borda">
+                         <h2>Complete suas informações abaixo:</h2>   
+    <form name ='forms' action="#" onsubmit="valida()">
+            <table class="Formulario">
                 <tr>
-                    <td>
+                     <td>
                         <label><strong>Nome</strong></label>
-                    </td>
-                    <td>
-                        <input type="text" name="nome">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label><strong>Senha</strong></label>
-                    </td>
-                    <td>
-                        <input type="text" name="senha">
+                     </td>
+                     <td>
+                        <input type="text" name='username' id="username">
                     </td>
                 </tr>
                 <tr>
@@ -35,10 +35,20 @@
                         <label><strong>Email</strong></label>
                     </td>
                     <td>
-                        <input type="email" name="email">
+                        <input type="email" name="password" id="email">
                     </td>
                 </tr>
-            </table>
+            </div>
+                <tr>
+                    <td>
+                        <label><strong>Senha</strong></label>
+                    </td>
+                    <td>
+                        <input type="senha" pattern="ˆ[1-9][0-9][A-Z]{8}$" maxlength="4" nome="password"  id="password">
+                    </td>
+                </tr>
+        </table>
+         <script src="form.js" ></script>
             <div class="acesso">
                 <label><strong>Lembrar o acesso</strong></label>
                 <input type="radio" name="lembrar acesso">
@@ -46,11 +56,18 @@
             <div>
                 <button type="submit">Enviar</button>
             </div>
-        </form>
-        <fieldset class="img">
-            <img src="img/fundo.svg" />
-        </fieldset>
+    </form>
     </fieldset>
+        <fieldset class="imagem">
+            <img src="img/fundo.svg" />
+    </fieldset>
+    
+        <footer class="fim">
+            <p>
+                EBANX.</a><br>@Jojo Proença|2022
+             </p>
+        </footer>
+        <script src="form.js"></script>
     </body>
 
     </html>
